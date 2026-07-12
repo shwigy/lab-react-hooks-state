@@ -1,1 +1,18 @@
-/* Dark mode styling is applied globally via src/index.css (.dark class) */
+.dark {
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark button {
+  background-color: #333;
+  color: #f5f5f5;
+  border-color: #555;
+}
+
+.dark select {
+  background-color: #333;
+  color: #f5f5f5;
+  border: 1px solid #555;
+}
